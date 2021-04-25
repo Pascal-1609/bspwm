@@ -42,6 +42,7 @@ bspc rule -a Screenkey manage=off
 
 #### OWN RULES ####
 bspc rule -a Zathura state=tiled
-google-drive-ocamlfuse /home/pascal/googledrive &
+
+rclone mount arch_googledrive: /media/google_drive/ &
 #### PANELS ####
 

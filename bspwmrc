@@ -5,13 +5,13 @@
 sxhkd &
 feh --bg-fill /usr/share/backgrounds/city_sunset.jpg &
 picom --experimental-backends &
-xrandr --output HDMI-0 --primary --mode 1920x1080 --rotate normal --output eDP-1-1 --mode 1920x1080 --rotate normal --right-of HDMI-0 &
+xrandr --output HDMI-1-0 --primary --mode 1920x1080 --rotate normal --output eDP1 --mode 1920x1080 --rotate normal --right-of HDMI-1-0 &
 #google-drive-ocamlfuse /home/pascal/googledrive &
 #keepass2 &
 
 #### MONITORS ####
-bspc monitor HDMI-0 -d I II III IV
-bspc monitor eDP-1-1 -d V VI VII VIII IX X
+bspc monitor HDMI-1-0 -d I II III IV V
+bspc monitor eDP1 -d VI VII VIII IX X
 
 #### CONFIG ####
 bspc config border_width         1

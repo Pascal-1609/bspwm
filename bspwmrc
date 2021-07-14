@@ -10,8 +10,8 @@ xrandr --output HDMI-1-0 --primary --mode 1920x1080 --rotate normal --output eDP
 #keepass2 &
 
 #### MONITORS ####
-bspc monitor HDMI-1-0 -d I II III IV V
-bspc monitor eDP1 -d VI VII VIII IX X
+bspc monitor HDMI-1-0 -d VS II III GK V
+bspc monitor eDP1 -d VI VII VIII IX Sp
 
 #### CONFIG ####
 bspc config border_width         1

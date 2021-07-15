@@ -46,5 +46,3 @@ bspc rule -a Zathura state=tiled
 bash $HOME/.config/polybar/launch.sh &
 rclone mount arch_googledrive: /media/google_drive/ &
 
-#### PANELS ####
-

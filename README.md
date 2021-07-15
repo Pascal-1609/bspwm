@@ -2,7 +2,7 @@
 
 ### Getting started
 
-You will first need to install <a href="https://github.com/baskerville/bspwm">bspwm</a> and sxhkd (a key-deamon) for your distro. In order to fully utilize this setup, installing <a href"https://github.com/polybar/polybar"> polybar</a>, feh a terminal, and a launcher such as dmenu is recommended.
+You will first need to install <a href="https://github.com/baskerville/bspwm">bspwm</a> and sxhkd (a key-deamon) for your distro. In order to fully utilize this setup, installing <a href="https://github.com/polybar/polybar">polybar</a>, feh a terminal, and a launcher such as dmenu is recommended.
 
 ##### Cloning the configs
 After installing bspwm, you need to clone this repo into your `.config` folder. Assuming you are in your `.config` folder:

@@ -3,7 +3,7 @@
 #### AUTOSTART ####
 
 sxhkd &
-feh --bg-fill /usr/share/backgrounds/city_sunset.jpg &
+feh --bg-fill /usr/share/backgrounds/city_sunset.jpg & # Sets the background
 picom --experimental-backends &
 xrandr --output HDMI-1-0 --primary --mode 1920x1080 --rotate normal --output eDP1 --mode 1920x1080 --rotate normal --right-of HDMI-1-0 &
 #google-drive-ocamlfuse /home/pascal/googledrive &

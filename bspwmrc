@@ -42,7 +42,7 @@ bspc rule -a Screenkey manage=off
 #### OWN RULES ####
 bspc rule -a Zathura state=tiled
 
-### Launch more apps ###
-bash $HOME/.config/polybar/launch.sh &
+#### Launch more apps ####
+$HOME/.config/polybar/launch.sh &
 rclone mount arch_googledrive: /media/google_drive/ &
 

@@ -9,6 +9,8 @@ if [[ $myc == "HDMI-1-0 connected primary 1920x1080+0+0 (normal left inverted ri
         bspc monitor HDMI-1-0 -d VS II III GK V 
         bspc monitor eDP1 -d VI VII Sp 
     else 
+        xrandr --output eDP1 --primary
+        bspc monitor HDMI-1-0 -r        # Delete unused monitor
         bspc monitor eDP1 -d I II III IV IIIII 
 fi
 

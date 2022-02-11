@@ -3,9 +3,9 @@
 #### AUTOSTART ####
 
 sxhkd &
-feh --bg-fill /usr/share/backgrounds/city_sunset.jpg & # Sets the background
+xrandr --output HDMI-1-0 --primary --mode 1920x1080 --rotate normal --output eDP-1 --mode 1920x1080 --rotate normal --right-of HDMI-1-0
+feh --bg-fill /usr/share/backgrounds/the-atlantic-road-norway.jpg # Sets the background
 picom --experimental-backends &
-xrandr --output HDMI-1-0 --primary --mode 1920x1080 --rotate normal --output eDP1 --mode 1920x1080 --rotate normal --right-of HDMI-1-0 &
 
 #### MONITORS and X11 ####
 $HOME/.config/bspwm/launch_monitors.sh
@@ -41,6 +41,6 @@ bspc rule -a Screenkey manage=off
 bspc rule -a Zathura state=tiled
 
 #### Launch more apps ####
-$HOME/.config/polybar/launch.sh &
-rclone mount arch_googledrive: /media/google_drive/ &
+$HOME/.config/polybar/launch.sh
+rclone mount arch_googledrive /media/google_drive/ &
 
